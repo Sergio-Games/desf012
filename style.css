@@ -26,14 +26,16 @@ header{
 }
 
 h1{
+    font-variant-caps: small-caps;
     font-family: var(--fonte2);
-    font-size: 15vh;
+    font-size: 20vh;
     margin-bottom: 10px;
 }
 
 
 header > p{
-    font: 300 normal 1em sans-serif;
+    font: 300 normal 1.5em sans-serif;
+    margin-bottom: 20px;
     margin-top: 0px;
 }
 
