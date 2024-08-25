@@ -19,22 +19,24 @@
 
 header{
     background-color: black;
-    padding: 60px;
-    padding-bottom: 40px;
+    padding: 50px;
+    padding-bottom: 30px;
     color: rgb(255, 255, 255);
     text-align: center;
 }
 
+
+
 h1{
     font-variant-caps: small-caps;
     font-family: var(--fonte2);
-    font-size: 20vh;
-    margin-bottom: 10px;
+    font-size: 10vw;
+
 }
 
 
 header > p{
-    font: 300 normal 1.5em sans-serif;
+    font: 300 normal 1em sans-serif;
     margin-bottom: 20px;
     margin-top: 0px;
 }
@@ -48,4 +50,31 @@ p > a{
 
 p > a:hover{
     text-decoration: underline;
+}
+
+main p{
+    font-variant-caps: small-caps;
+    font: 500 normal 3.5vw var(--fonte3);
+
+    line-height: 2em;
+}
+
+section{
+    margin-top: 10vh;
+    margin-bottom: 17vh;
+    padding-left: 30px;
+}
+
+section#sessão2{
+    margin-top: 0vh;
+    background-color: lightblue;
+    padding: 9vh 30px;
+}
+
+
+section#sessão2 > p{
+    color: white;
+    width: fit-content;
+    background-color: rgba(0, 0, 0, 0.74);
+    padding: 10px 3px;
 }
