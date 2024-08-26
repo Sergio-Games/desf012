@@ -65,10 +65,21 @@ section{
     padding-left: 30px;
 }
 
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
 section#sessão2{
     margin-top: 0vh;
-    background-color: lightblue;
+    background: black url(pacote-d012/imagens/background001.jpg) right center no-repeat fixed;
+    background-size: cover;
+    box-shadow: inset 0px 0px 7px 5px #0000004f;
     padding: 9vh 30px;
+    margin-bottom: 10vh;
 }
 
 
@@ -78,3 +89,34 @@ section#sessão2 > p{
     background-color: rgba(0, 0, 0, 0.74);
     padding: 10px 3px;
 }
+
+section#sessão4{
+    margin-top: 0vh;
+    background: black url(pacote-d012/imagens/background002.jpg) right center no-repeat fixed;
+    background-size: cover;
+    box-shadow: inset 0px 0px 7px 5px #0000004f;
+    padding: 9vh 30px;
+}
+
+section#sessão4 > p{
+    color: white;
+    width: fit-content;
+    background-color: rgba(0, 0, 0, 0.445);
+    padding: 10px 3px;
+}
+
+#creditos{
+    font-family: var(--fonte1);
+    font-size: 1.3vh;
+}
+
+#creditos > a{
+    font-family: var(--fonte1);
+    font-size: 1.25vh;
+    font-weight: 600;
+}
+
+.paragrafos{
+    margin-bottom: 6vh;
+}
+
